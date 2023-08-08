@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Social Media Site</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="chat-box">
+            <h2>Chat</h2>
+            <div id="chat-messages"></div>
+            <div id="user-input">
+                <input type="text" id="message" placeholder="Type your message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+        <div id="task-list">
+            <h2>Tasks</h2>
+            <ul id="tasks"></ul>
+            <div id="task-input">
+                <input type="text" id="task" placeholder="Enter a task...">
+                <button onclick="assignTask()">Assign</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
